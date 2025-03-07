@@ -9,8 +9,8 @@ Work in progress...
 ## Additional Notes
 Work in progress...
 
-## Task boards
-- [Task Planner](https://github.com/Michaelliu1017)
+## Task Planner
+[Task Planner](https://github.com/Michaelliu1017)
 
 ## Credit
 - [Michael Liu](https://github.com/Michaelliu1017)
