@@ -4,7 +4,7 @@ import datetime
 import platform
 
 
-def gl_banner_display():
+def gl_banner():
     print("\n")
     seed = "490000514095612094711092719200618300609300923300527300409400454500"
     length = len(seed)
@@ -31,7 +31,7 @@ def gl_banner_display():
         time.sleep(0.05)
         print()  
     
-    projectName="SWE Project 3"
+    projectName="Project Name"
     db_name="None"
     environment="Testing"
     version="1.0"
@@ -41,7 +41,7 @@ def gl_banner_display():
 
     banner = f"""
 
--- DATABASE PROGRAM INITIALIZATION --
+-- PROGRAM INITIALIZATION --
 
    PROJECT      : {projectName}
    DB NAME      : {db_name}
@@ -56,7 +56,7 @@ def gl_banner_display():
 
 def main():
     #print("Output of Python Program")
-    testInfo()
+    gl_banner()
 
 if __name__ == "__main__":
     main()
